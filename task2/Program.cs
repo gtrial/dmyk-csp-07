@@ -11,7 +11,7 @@ namespace task2
         }
     }
 
-    internal class MyClass
+    internal static class MyClass
     {
         [Obsolete("", error:false)]
         public static void Method1()
